@@ -1,0 +1,21 @@
+Go to your project folder:
+cd /path/to/project
+git clone <
+git init
+git status
+git log (track of all commit history)
+git restore --staged <filename>
+git add . --> push all files to staging area 
+git add <file1>(add specific file)
+git commit -m "comment"(push changes from staging to local repo)
+git push -> push changes to remote repo (distributed systems)
+git pull 
+
+git annotate-> last changed each line of a file, when they changed it, and which commit made the change.
+git show abc1234(first 7 digits of hash)-> What did that commit change?
+
+
+4. Connect local project to GitHub
+git remote -v
+git remote add origin git@github.com:USERNAME/REPOSITORY.git
+
